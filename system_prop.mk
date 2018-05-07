@@ -3,4 +3,4 @@
 # Device specific property overrides
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=600
+    ro.sf.lcd_density=560
