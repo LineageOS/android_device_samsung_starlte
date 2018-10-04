@@ -23,7 +23,7 @@
         <value>4</value>
         <value>4</value>
     </array>
-    <array name="cpu.speeds.cluster0">
+    <array name="cpu.core_speeds.cluster0">
         <value>1950000</value>
         <value>1794000</value>
         <value>1690000</value>
@@ -36,7 +36,7 @@
         <value>598000</value>
         <value>455000</value>
     </array>
-    <array name="cpu.active.cluster0">
+    <array name="cpu.core_power.cluster0">
         <value>95</value>
         <value>76</value>
         <value>68</value>
@@ -49,7 +49,7 @@
         <value>28</value>
         <value>25</value>
     </array>
-    <array name="cpu.speeds.cluster1">
+    <array name="cpu.core_speeds.cluster1">
         <value>2860000</value>
         <value>2704000</value>
         <value>2652000</value>
@@ -70,7 +70,7 @@
         <value>741000</value>
         <value>650000</value>
     </array>
-    <array name="cpu.active.cluster1">
+    <array name="cpu.core_power.cluster1">
         <value>1730</value>
         <value>1333</value>
         <value>1224</value>
@@ -91,8 +91,8 @@
         <value>111</value>
         <value>101</value>
     </array>
-    <item name="cpu.idle">3.7</item>
-    <item name="cpu.awake">17</item>
+    <item name="cpu.suspend">3.7</item>
+    <item name="cpu.idle">17</item>
     <item name="battery.capacity">3000</item>
     <item name="wifi.controller.idle">1</item>
     <item name="wifi.controller.rx">65</item>
