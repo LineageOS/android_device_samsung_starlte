@@ -13,4 +13,4 @@ TARGET_KERNEL_CONFIG := exynos9810-starlte_defconfig
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Inherit common board flags
-include device/samsung/star-common/BoardConfigCommon.mk
+include device/samsung/universal9810-common/BoardConfigCommon.mk

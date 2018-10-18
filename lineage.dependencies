@@ -1,6 +1,6 @@
 [
     {
-        "repository": "android_device_samsung_star-common",
-        "target_path": "device/samsung/star-common"
+        "repository": "android_device_samsung_universal9810-common",
+        "target_path": "device/samsung/universal9810-common"
     }
 ]
