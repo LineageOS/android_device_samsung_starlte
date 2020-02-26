@@ -22,5 +22,8 @@ TARGET_OTA_ASSERT_DEVICE := starltexx,starlteks,starlte
 # Kernel
 TARGET_KERNEL_CONFIG := exynos9810-starlte_defconfig
 
+# Partitions
+BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 4561305600
+
 # Inherit common board flags
 include device/samsung/universal9810-common/BoardConfigCommon.mk
