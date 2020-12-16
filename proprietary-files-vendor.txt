@@ -1,3 +1,5 @@
+# Proprietary files - from Samsung package version G960FXXSEFUA1, unless pinned
+
 ### AUDIO
 vendor/etc/SoundBoosterParam.txt
 vendor/etc/a2dp_audio_policy_configuration.xml
