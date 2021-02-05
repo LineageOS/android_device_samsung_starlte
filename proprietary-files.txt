@@ -1,0 +1,6 @@
+### CAMERA
+# Copied by vendor_init which needs read access
+system/media/fruc_kernels.s9.slsi.bin:vendor/firmware/fruc_kernels.s9.slsi.bin
+
+### NFC
+system/etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
