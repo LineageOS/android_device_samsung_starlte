@@ -58,7 +58,7 @@ function blob_fixup() {
         vendor/lib*/libsec-ril.so|vendor/lib*/libsec-ril-dsds.so)
             sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
             ;;
-        vendor/lib/libsensorlistener.so)
+        vendor/lib*/libsensorlistener.so)
             "${PATCHELF}" --add-needed libshim_sensorndkbridge.so "${2}"
             ;;
     esac
