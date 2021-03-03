@@ -18,3 +18,7 @@
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=560
+
+#advertise NFC Extended Length support
+PRODUCT_PROPERTY_OVERRIDES += \
+    nfc.isodep_extended_length_supported=true                                             
