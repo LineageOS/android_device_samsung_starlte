@@ -94,9 +94,6 @@ vendor/lib64/libgf_in_system_lib.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 
-### BLUETOOTH
-vendor/lib64/libbt-vendor.so
-
 ### BLUETOOTH_FIRMWARE
 vendor/firmware/bcm4361B2_murata.hcd
 vendor/firmware/bcm4361B2_semco.hcd
