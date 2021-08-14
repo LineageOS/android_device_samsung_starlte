@@ -1,6 +1,7 @@
 # Proprietary files - from Samsung package version G960FXXSHFUJ2, unless pinned
 
 # Audio
+vendor/etc/dolby/dax-default.xml
 vendor/etc/SoundBoosterParam.txt
 vendor/etc/floating_feature.xml
 vendor/etc/mixer_gains.xml
