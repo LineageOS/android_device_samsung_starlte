@@ -11,9 +11,6 @@ function blob_fixup() {
 	vendor/lib*/libwrappergps.so)
 	    "${PATCHELF}" --replace-needed libvndsecril-client.so libsecril-client.so "${2}"
 	    ;;
-        vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn)
-            "${PATCHELF}" --add-needed libdemangle.so "${2}"
-            ;;
     esac
 }
 

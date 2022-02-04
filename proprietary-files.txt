@@ -69,9 +69,6 @@ vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin
 vendor/app/mcRegistry/ffffffff00000000000000000000002e.tlbin
 vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin
 
-# NeuralNetworks
--vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn
-
 # NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin
