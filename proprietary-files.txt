@@ -5,11 +5,11 @@ vendor/etc/SoundBoosterParam.txt
 vendor/etc/floating_feature.xml
 vendor/etc/mixer_gains.xml
 vendor/etc/mixer_paths.xml
-vendor/lib/soundfx/libsamsungSoundbooster_plus.so
-vendor/lib64/soundfx/libswdap.so
-vendor/lib/librecordalive.so
-vendor/lib/soundfx/libswdap.so
-vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
+-vendor/lib/soundfx/libsamsungSoundbooster_plus.so
+-vendor/lib64/soundfx/libswdap.so
+-vendor/lib/librecordalive.so
+-vendor/lib/soundfx/libswdap.so
+-vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
 
 # Audio Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
@@ -27,33 +27,33 @@ vendor/firmware/bcm4361B2_murata.hcd
 vendor/firmware/bcm4361B2_semco.hcd
 
 # Camera
-vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.4-impl.so
-vendor/lib/libexynoscamera3.so
-vendor/lib/hw/camera.exynos9810.so
-vendor/lib64/camera.device@3.2-impl.so
-vendor/lib64/camera.device@3.4-impl.so
-vendor/lib64/libexynoscamera3.so
-vendor/lib64/hw/camera.exynos9810.so
+-vendor/lib/camera.device@3.2-impl.so;MODULE=camera.device@3.2-impl.exynos9810
+-vendor/lib/camera.device@3.4-impl.so;MODULE=camera.device@3.4-impl.exynos9810
+-vendor/lib/libexynoscamera3.so
+-vendor/lib/hw/camera.exynos9810.so
+-vendor/lib64/camera.device@3.2-impl.so;MODULE=camera.device@3.2-impl.exynos9810
+-vendor/lib64/camera.device@3.4-impl.so;MODULE=camera.device@3.4-impl.exynos9810
+-vendor/lib64/libexynoscamera3.so
+-vendor/lib64/hw/camera.exynos9810.so
 
 # Camera firmware
 vendor/firmware/ois_fw_dom.bin
 vendor/firmware/ois_fw_sec.bin
 
 # GPS
-vendor/lib/libwrappergps.so
-vendor/lib64/libwrappergps.so
+-vendor/lib/libwrappergps.so
+-vendor/lib64/libwrappergps.so
 
 # Keymaster
-vendor/lib64/libkeymaster_helper_vendor.so
+-vendor/lib64/libkeymaster_helper_vendor.so
 
 # OMX
-vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so
-vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so
-vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so
-vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so
-vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so
-vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so
+-vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so
+-vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so
+-vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so
+-vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so
+-vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so
+-vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so
 
 # OMX Firmware
 vendor/firmware/fimc_is_lib.bin
@@ -70,25 +70,25 @@ vendor/app/mcRegistry/ffffffff00000000000000000000002e.tlbin
 vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin
 
 # NeuralNetworks
-vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn
+-vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-armnn
 
 # NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin
 
 # Samsung SLSI IVA
-vendor/lib/libhifistill.so
-vendor/lib/libopenvx.so
-vendor/lib64/libhifistill.so
-vendor/lib64/libopenvx.so
+-vendor/lib/libhifistill.so
+-vendor/lib/libopenvx.so
+-vendor/lib64/libhifistill.so
+-vendor/lib64/libopenvx.so
 vendor/firmware/iva20_rt-lhotse.bin
 
 # Sensors
-vendor/lib/sensors.sensorhub.so
-vendor/lib64/sensors.sensorhub.so
+-vendor/lib/sensors.sensorhub.so
+-vendor/lib64/sensors.sensorhub.so
 
 # Widewine
-vendor/lib/libwvhidl.so
+-vendor/lib/libwvhidl.so
 
 # Wi-Fi
 vendor/etc/wifi/bcmdhd_clm.blob
