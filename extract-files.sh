@@ -8,6 +8,9 @@
 
 function blob_fixup() {
     case "${1}" in
+	vendor/lib/hw/audio.primary.exynos9810.so)
+	    "${PATCHELF}" --replace-needed libvndsecril-client.so libsecril-client.so "${2}"
+            ;;
 	vendor/lib*/libwrappergps.so)
 	    "${PATCHELF}" --replace-needed libvndsecril-client.so libsecril-client.so "${2}"
 	    ;;
