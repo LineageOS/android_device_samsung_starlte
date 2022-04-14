@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="ambient.on">20</item>
-    <item name="screen.on">72</item>
-    <item name="screen.full">273</item>
+    <item name="ambient.on.display0">20</item>
+    <item name="screen.on.display0">72</item>
+    <item name="screen.full.display0">273</item>
     <item name="audio">35</item>
     <item name="video">181</item>
     <item name="camera.flashlight">86</item>
