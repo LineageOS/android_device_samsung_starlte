@@ -89,15 +89,3 @@ vendor/firmware/iva20_rt-lhotse.bin
 
 # Widewine
 -vendor/lib/libwvhidl.so
-
-# Wi-Fi
-vendor/etc/wifi/bcmdhd_clm.blob
-vendor/etc/wifi/bcmdhd_mfg.bin_b2
-vendor/etc/wifi/bcmdhd_sta.bin_b2
-vendor/etc/wifi/nvram.txt_murata_r031_b0
-vendor/etc/wifi/nvram.txt_murata_r032_b0
-vendor/etc/wifi/nvram.txt_murata_r033_b0
-vendor/etc/wifi/nvram.txt_murata_r041_b2
-vendor/etc/wifi/nvram.txt_r02a_b2
-vendor/etc/wifi/nvram.txt_r02b_b2
-vendor/etc/wifi/nvram.txt_r02j_b0
