@@ -16,6 +16,9 @@ function blob_fixup() {
 	vendor/lib*/libwrappergps.so)
 	    "${PATCHELF}" --replace-needed libvndsecril-client.so libsecril-client.so "${2}"
 	    ;;
+        vendor/lib*/libexynosdisplay.so|vendor/lib*/hw/hwcomposer.exynos9820.so|vendor/lib*/sensors.*.so)
+            "${PATCHELF}" --replace-needed libutils.so libutils-v32.so "${2}"
+            ;;
     esac
 }
 
